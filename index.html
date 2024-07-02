@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Achmad</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Ini header -->
+    <header class="nav-content">
+      <div class="logo-icon"></div>
+      <nav class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#profile">Profile</a>
+        <a href="#massage">Massage</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <!-- Content -->
+    <main>
+      <!-- Content Home -->
+      <section id="home">
+        <header>
+          <h1>Halo Abdillah , Welcome to my Website</h1>
+        </header>
+        <article>
+          <p>ini website latihan pertama</p>
+          <div class="banner"></div>
+        </article>
+      </section>
+      <hr />
+      <!-- Our Profile Content -->
+      <section id="profile">
+        <header>
+          <h1>Profile</h1>
+        </header>
+        <div class="profile-item">
+          <img src="assets/pic.jpeg" alt="" />
+          <p>
+            Perkenalkan nama saya Nur Achmad Abdillah berasal dari Pasuruan Jawa
+            Timur saya memiliki latar belakang pendidikan teknik informatika.
+            saya lulusan dari Institut Teknologi Nasional Malang ( ITN ), saya
+            memiliki minat yang besar dalam pengembangan perangkat lunak dan
+            teknologi informasi.
+          </p>
+        </div>
+      </section>
+      <hr />
+      <!-- Portofolio -->
+      <section>
+        <div class="container" id="massage">
+          <div class="form-container">
+            <h2>Message Us</h2>
+            <form>
+              <div class="form-group">
+                <label class="label" for="name">Nama:</label>
+                <input
+                  type="text"
+                  class="input-field"
+                  id="name"
+                  name="name"
+                  placeholder="Nama"
+                />
+              </div>
+              <div class="form-group">
+                <label class="label" for="birthdate">Tanggal Lahir:</label>
+                <input
+                  type="date"
+                  class="input-field"
+                  id="birthdate"
+                  name="birthdate"
+                  value="2023-04-02"
+                />
+              </div>
+              <div class="form-group">
+                <label class="label" for="gender">Jenis Kelamin:</label>
+                <div class="radio-group">
+                  <input
+                    type="radio"
+                    class="radio-button"
+                    id="male"
+                    name="gender"
+                    value="male"
+                  />
+                  <label for="male">Laki-Laki</label>
+                  <input
+                    type="radio"
+                    class="radio-button"
+                    id="female"
+                    name="gender"
+                    value="female"
+                  />
+                  <label for="female">Perempuan</label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="label" for="message">Pesan:</label>
+                <textarea
+                  class="input-field"
+                  id="message"
+                  name="message"
+                  placeholder="Pesan"
+                ></textarea>
+              </div>
+              <button type="submit" class="button">Submit</button>
+            </form>
+          </div>
+          <div class="info-container">
+            <div class="info-group">
+              <span class="info-label">Nama:</span> Nur Achmad Abdillah
+            </div>
+            <div class="info-group">
+              <span class="info-label">Tanggal Lahir:</span> 01/11/2000
+            </div>
+            <div class="info-group">
+              <span class="info-label">Jenis Kelamin:</span> Laki - Laki
+            </div>
+            <div class="info-group">
+              <span class="info-label">Pesan:</span> Lagi Belajar buat Website
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <!-- contact -->
+      <section id="contact">
+        <div class="container-contact">
+          <div class="header-contact">
+            <h2>Contact Us</h2>
+          </div>
+          <div class="row">
+            <div class="column">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31634.36017807579!2d112.88449510534251!3d-7.651392227405121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7c5e1a5fb57df%3A0xbe8c958dde768096!2sPasuruan%2C%20Kota%20Pasuruan%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1719850524353!5m2!1sid!2sid"
+                width="600"
+                height="450"
+                style="border: 0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                class="map"
+              ></iframe>
+            </div>
+            <div class="column">
+              <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="Your name.."
+                />
+                <label for="lname">Last Name</label>
+                <input
+                  type="text"
+                  id="lname"
+                  name="lastname"
+                  placeholder="Your last name.."
+                />
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Indonesia</option>
+                  <option value="span">Spain</option>
+                  <option value="usa">USA</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea
+                  id="subject"
+                  name="subject"
+                  placeholder="Ketik Pesannya..."
+                  style="height: 170px;"
+                ></textarea>
+                <input type="submit" value="Submit" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <footer style="text-align: center;">
+        <p>Copyright &copy; 2024. Nur Achmad Abdillah</p>
+      </footer>
+    </main>
+  </body>
+</html>

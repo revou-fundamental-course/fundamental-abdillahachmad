@@ -1,0 +1,143 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  position: fixed; /* Fixed position */
+  top: 0; /* Stay at the top */
+  width: 100%; /* Full width */
+  text-align: center; /* Centered text */
+  padding: 10px 0; /* Padding */
+  z-index: 1000;
+  border-bottom: 1px solid #c4c4c4;
+}
+#home {
+  margin-top: 80px;
+}
+.logo-icon {
+  width: 50px;
+  height: 50px;
+  background-image: url(../assets/logo.png);
+  background-size: cover;
+}
+.navbar-nav a {
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid;
+  text-decoration: none;
+  color: black;
+}
+.banner {
+  height: 450px;
+  width: 100%;
+  background-image: url(../assets/rinjani.jpg);
+  background-size: cover;
+}
+.profile-item {
+  display: flex;
+}
+.profile-item img {
+  width: 300px;
+  padding-right: 1.5rem;
+  padding-left: 1.6rem;
+}
+
+.container {
+  display: flex;
+}
+.form-container {
+  width: 400px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.radio-group {
+  display: flex;
+  align-items: center;
+}
+.radio-button {
+  margin-right: 10px;
+}
+.button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.info-container {
+  width: 400px;
+  margin: 100px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 4px;
+}
+.info-group {
+  margin-bottom: 10px;
+}
+.info-label {
+  display: block;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+}
+.row .column {
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.row .column .map {
+  width: 100%;
+  object-fit: cover;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container-contact {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
